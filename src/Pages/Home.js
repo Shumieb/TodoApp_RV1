@@ -1,8 +1,11 @@
 import React from 'react'
+import AddNewTodoForm from '../Components/AddNewTodoForm'
 
 function Home() {
     return (
-        <div>Home</div>
+        <div className='my-5'>
+            <AddNewTodoForm />
+        </div>
     )
 }
 
