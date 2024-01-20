@@ -1,6 +1,7 @@
 import React from 'react'
 import AddNewTodoForm from '../Components/AddNewTodoForm'
 import TodoList from '../Components/TodoList'
+import SearchForTodo from '../Components/SearchForTodo'
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
                 <button type="button" className='btn btn-primary col-auto mx-2'>Search</button>
             </div>
             <AddNewTodoForm />
+            <SearchForTodo />
             <TodoList />
         </div>
     )
